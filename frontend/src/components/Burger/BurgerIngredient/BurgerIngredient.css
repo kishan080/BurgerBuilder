@@ -1,0 +1,65 @@
+.BreadBottom {
+    width: 60%;
+    position: relative;
+    z-index: -5;
+    top: -53px;
+    margin-bottom: -53px;
+
+}
+
+.BreadTop {
+  width: 60%;
+  position: relative;
+  z-index: 1;
+}
+
+
+.Meat {
+    width: 61%;
+    position: relative;
+    top: -80px;
+    margin-bottom: -80px;
+    z-index: -4;
+    transform: translateY(-3%);
+   animation: floater 1.5s infinite;
+   transition: ease 0.5s;
+}
+
+.Cheese {
+    width: 66%;
+    position: relative;
+    top: -130px;
+    margin-bottom: -130px;
+    z-index: -3;
+    transform: translateY(-3%);
+    animation: floater 1.5s infinite;
+    transition: ease 0.5s;
+}
+
+.Salad {
+  width: 65%;
+  position: relative;
+  top: -80px;
+  margin-bottom: -80px;
+  z-index: -1;
+  transform: translateY(-3%);
+  animation: floater 1.5s infinite;
+  transition: ease 0.5s;
+}
+
+.Bacon {
+    width: 62%;
+    position: relative;
+    top: -80px;
+    margin-bottom: -80px;
+    z-index: -2;
+    transform: translateY(-3%);
+    animation: floater 1.5s infinite;
+    transition: ease 0.5s;
+}
+
+
+@keyframes floater {
+  0%{transform: translateY(-5%);transition: ease 0.5s;}
+  50%{transform: translateY(5%);transition: ease 0.5s;}
+}

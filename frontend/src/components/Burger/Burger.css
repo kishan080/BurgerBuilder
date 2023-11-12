@@ -1,0 +1,47 @@
+.Burger {
+    margin: auto;
+    height: 250px;
+    overflow-y: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    direction: rtl;
+}
+
+.Burger::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+.Burger::-webkit-scrollbar-track {
+    background: rgb(222, 222, 222);
+  }
+  
+.Burger::-webkit-scrollbar-thumb {
+    background-color: rgb(200, 199, 199);;
+    border-radius: 0px;
+
+  }
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Burger {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Burger {
+        width: 630px;
+        height: 96%;
+        margin: 2px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Burger {
+        width: 700px;
+        height: 96%;
+        padding: 10px 127px;
+    }
+}
